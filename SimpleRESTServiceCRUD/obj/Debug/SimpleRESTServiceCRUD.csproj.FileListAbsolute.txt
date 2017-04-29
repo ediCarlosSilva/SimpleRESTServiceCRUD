@@ -1,0 +1,6 @@
+C:\Users\Edi Carlos\git\SimpleRESTServiceCRUD\SimpleRESTServiceCRUD\bin\SimpleRESTServiceCRUD.dll.config
+C:\Users\Edi Carlos\git\SimpleRESTServiceCRUD\SimpleRESTServiceCRUD\bin\SimpleRESTServiceCRUD.dll
+C:\Users\Edi Carlos\git\SimpleRESTServiceCRUD\SimpleRESTServiceCRUD\bin\SimpleRESTServiceCRUD.pdb
+C:\Users\Edi Carlos\git\SimpleRESTServiceCRUD\SimpleRESTServiceCRUD\obj\Debug\SimpleRESTServiceCRUD.csprojResolveAssemblyReference.cache
+C:\Users\Edi Carlos\git\SimpleRESTServiceCRUD\SimpleRESTServiceCRUD\obj\Debug\SimpleRESTServiceCRUD.dll
+C:\Users\Edi Carlos\git\SimpleRESTServiceCRUD\SimpleRESTServiceCRUD\obj\Debug\SimpleRESTServiceCRUD.pdb

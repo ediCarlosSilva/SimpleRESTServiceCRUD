@@ -31,7 +31,19 @@ namespace SimpleRESTServiceCRUD
         public string UpdateBook(Book book, string id)
         {
             bool updated = repository.UpdateABook(book);
+            if (updated)
+                return "Book with id = " + id + " updated successfully";
+            else
+                return "Unable to update book with id = " + id;
         }
 
+        public string DeleteBook(string id)
+        {
+            bool deleted = repository.DeleteABook(int.Parse(id));
+            if (deleted)
+                return "Book with id = " + id + " deleted successfully.";
+            else
+                return "Unable to delete book with id = " + id;
+        }
     }
 }

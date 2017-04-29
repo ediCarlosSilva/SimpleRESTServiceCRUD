@@ -15,7 +15,7 @@ namespace SimpleRESTServiceCRUD
         [OperationContract]
         [WebInvoke(Method = "GET",
             RequestFormat = WebMessageFormat.Json,
-            ResponseFormat = WebMessageFormat.Xml,
+            ResponseFormat = WebMessageFormat.Json,
             UriTemplate = "Books/")]
         List<Book> GetBookList();
 

@@ -59,10 +59,16 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BookService.svc" />
     <Content Include="Service1.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Books.cs" />
+    <Compile Include="BookService.svc.cs">
+      <DependentUpon>BookService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="IBookService.cs" />
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
     </Compile>
